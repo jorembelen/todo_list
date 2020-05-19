@@ -11,7 +11,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
 
   _showFormInDialog(BuildContext context){
     return showDialog(context: context, barrierDismissible: true, builder: (param){
-      return AlertDialog(title: Text("Category Form"),);
+      return AlertDialog(title: Text("Category Forms"),);
     });
   }
   @override
